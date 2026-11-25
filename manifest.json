@@ -45,11 +45,11 @@
       "id": "gate",
       "name": "Eden Gate",
       "blurb": "Your servers and SSH, in one window.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "kind": "nsis",
       "url": "https://raw.githubusercontent.com/Sandy360k/eden-app/collection/eden-gate-setup.exe",
-      "sha256": "115877dbda44610fb40b0fd176457a29b17f45823db510722c55f242c2b8abdb",
-      "size": 14855018,
+      "sha256": "8763e4e2001bf9b1727b85f084c596e9c5b3340951571e27b17f3fea79e99bf9",
+      "size": 14849618,
       "exe": "eden-gate.exe",
       "args_install": [
         "/S"
