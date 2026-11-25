@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "apps": [
+    {
+      "id": "eden",
+      "name": "Eden",
+      "blurb": "Your Eden, on the desktop.",
+      "version": "0.2.0",
+      "kind": "nsis",
+      "url": "https://raw.githubusercontent.com/Sandy360k/eden-app/collection/eden-setup.exe",
+      "sha256": "69a2d0a91db9b697a1e47d999938f9c202f8a97fa2d221b477f0ded2a4da708f",
+      "size": 2260147,
+      "exe": "eden-desktop.exe",
+      "args_install": [
+        "/S"
+      ],
+      "args_uninstall": [
+        "/S"
+      ],
+      "uninstall_name": "Eden"
+    },
+    {
+      "id": "dew",
+      "name": "Eden Dew",
+      "blurb": "A notch for your desktop: now playing, timers, your files.",
+      "version": "1.0.0",
+      "kind": "portable",
+      "url": "https://raw.githubusercontent.com/Sandy360k/eden-app/collection/dew.exe",
+      "sha256": "91906415df95eee57c86dd51bfbc75aee5eb1ae3326e3cb7d70e739501c4b8fd",
+      "size": 1328640,
+      "exe": "dew.exe"
+    },
+    {
+      "id": "leaf",
+      "name": "Eden Leaf",
+      "blurb": "Sticky notes that sit as little tabs on your screen edges.",
+      "version": "0.1.0",
+      "kind": "portable",
+      "url": "https://raw.githubusercontent.com/Sandy360k/eden-app/collection/leaf.exe",
+      "sha256": "9fd3220452740a58d84288d1b5b3c5424cccb98d01ca174bdeb649b2b2b2a214",
+      "size": 4509184,
+      "exe": "leaf.exe"
+    },
+    {
+      "id": "gate",
+      "name": "Eden Gate",
+      "blurb": "Your servers and SSH, in one window.",
+      "version": "0.1.0",
+      "kind": "nsis",
+      "url": "https://raw.githubusercontent.com/Sandy360k/eden-app/collection/eden-gate-setup.exe",
+      "sha256": "115877dbda44610fb40b0fd176457a29b17f45823db510722c55f242c2b8abdb",
+      "size": 14855018,
+      "exe": "eden-gate.exe",
+      "args_install": [
+        "/S"
+      ],
+      "args_uninstall": [
+        "/S"
+      ],
+      "uninstall_name": "Eden Gate"
+    },
+    {
+      "id": "firefly",
+      "name": "Eden Firefly",
+      "blurb": "Hold a key, ask out loud, and it points at the answer on your screen.",
+      "version": "0.1.0",
+      "kind": "portable",
+      "url": "https://raw.githubusercontent.com/Sandy360k/eden-app/collection/firefly.exe",
+      "sha256": "b25e074728f3d083f91647517179864e93b8302aad55123c0f46143f3ad88cf2",
+      "size": 1072128,
+      "exe": "firefly.exe"
+    }
+  ]
+}
